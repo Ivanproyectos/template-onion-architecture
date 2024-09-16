@@ -1,0 +1,11 @@
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\bin\Debug\net8.0\Api.autor.Infraestructure.deps.json
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\bin\Debug\net8.0\Api.autor.Infraestructure.dll
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\bin\Debug\net8.0\Api.autor.Infraestructure.pdb
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\Api.autor.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\Api.autor.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\Api.autor.Infraestructure.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\Api.autor.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\Api.autor.Infraestructure.dll
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\refint\Api.autor.Infraestructure.dll
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\Api.autor.Infraestructure.pdb
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Infraestructure\obj\Debug\net8.0\ref\Api.autor.Infraestructure.dll

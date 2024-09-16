@@ -1,0 +1,11 @@
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\bin\Debug\net8.0\Api.autor.Domain.deps.json
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\bin\Debug\net8.0\Api.autor.Domain.dll
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\bin\Debug\net8.0\Api.autor.Domain.pdb
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\Api.autor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\Api.autor.Domain.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\Api.autor.Domain.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\Api.autor.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\Api.autor.Domain.dll
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\refint\Api.autor.Domain.dll
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\Api.autor.Domain.pdb
+C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Domain\obj\Debug\net8.0\ref\Api.autor.Domain.dll
