@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CMVuMXVwsFU=",
+  "dgSpecHash": "4Q1uhgj+G1w=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Common\\Api.autor.Common.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Common\\Api.autor.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

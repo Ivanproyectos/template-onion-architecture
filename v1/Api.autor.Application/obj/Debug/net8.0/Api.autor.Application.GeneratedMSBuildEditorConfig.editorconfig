@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Api.autor.Application
-build_property.ProjectDir = C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Application\
+build_property.ProjectDir = C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

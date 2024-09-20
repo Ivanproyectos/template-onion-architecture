@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Application\\Api.autor.Application.csproj": {}
+    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Application\\Api.autor.Application.csproj": {
+    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Application\\Api.autor.Application.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
         "projectName": "Api.autor.Application",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Application\\Api.autor.Application.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Application\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
@@ -34,8 +34,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Domain\\Api.autor.Domain.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Domain\\Api.autor.Domain.csproj"
+              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
+                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Domain\\Api.autor.Domain.csproj": {
+    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Domain\\Api.autor.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj",
         "projectName": "Api.autor.Domain",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Domain\\Api.autor.Domain.csproj",
+        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\Mis documentos\\Proyectos\\Mis proyectos\\.NET\\Api arquitectura Onion\\test-onion-autor\\api.autor.onion\\Api.autor.Domain\\obj\\",
+        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"

@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.WebApi", "Api.aut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.Common", "Api.autor.Common\Api.autor.Common.csproj", "{315CB2A1-3861-45DA-A347-2A0CBE915964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.autor.IoC", "Api.autor.IoC\Api.autor.IoC.csproj", "{C7C49306-861A-430D-B56F-07029A93C76F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.IoC", "Api.autor.IoC\Api.autor.IoC.csproj", "{C7C49306-861A-430D-B56F-07029A93C76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.autor.ExceptionHandlers", "Api.autor.ExceptionHandlers\Api.autor.ExceptionHandlers.csproj", "{C409B387-C8BC-482A-8701-32D06C997B24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{C7C49306-861A-430D-B56F-07029A93C76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7C49306-861A-430D-B56F-07029A93C76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7C49306-861A-430D-B56F-07029A93C76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C409B387-C8BC-482A-8701-32D06C997B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C409B387-C8BC-482A-8701-32D06C997B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C409B387-C8BC-482A-8701-32D06C997B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C409B387-C8BC-482A-8701-32D06C997B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{6946647E-20BE-4E68-B0DF-8F33B84DCA47} = {459AAE68-4DFF-4FA6-920F-5FB220E901E0}
 		{315CB2A1-3861-45DA-A347-2A0CBE915964} = {D760D1BC-C5A6-4145-A61C-FCC8927C4DD1}
 		{C7C49306-861A-430D-B56F-07029A93C76F} = {D760D1BC-C5A6-4145-A61C-FCC8927C4DD1}
+		{C409B387-C8BC-482A-8701-32D06C997B24} = {D760D1BC-C5A6-4145-A61C-FCC8927C4DD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E580EEB4-EC14-4656-9615-3A6E625793BC}

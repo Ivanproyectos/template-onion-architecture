@@ -13,3 +13,19 @@ C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arqui
 C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Application\bin\Debug\net8.0\Api.autor.Domain.pdb
 C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.csproj.AssemblyReference.cache
 C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.Application\obj\Debug\net8.0\Api.auto.2AE6AAC5.Up2Date
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\bin\Debug\net8.0\Api.autor.Application.deps.json
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\bin\Debug\net8.0\Api.autor.Application.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\bin\Debug\net8.0\Api.autor.Application.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\bin\Debug\net8.0\Api.autor.Domain.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\bin\Debug\net8.0\Api.autor.Domain.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.sourcelink.json
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.auto.2AE6AAC5.Up2Date
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\refint\Api.autor.Application.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\Api.autor.Application.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.Application\obj\Debug\net8.0\ref\Api.autor.Application.dll

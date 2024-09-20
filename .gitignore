@@ -1,0 +1,58 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio specific files
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.sln.ide
+*.sln.docstates
+*.vs/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Rider specific files
+.idea/
+
+# Rider specific files
+.idea/
+*.sln.iml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Visual Studio 2019 config
+.vs/
+
+# ASP.NET specific
+wwwroot/lib/
+wwwroot/css/
+wwwroot/js/
+wwwroot/images/
+wwwroot/svgs/
+
+# Logs
+logs/
+*.log
+
+# Other
+*.db
+*.db-journal
+
+# User-specific files
+*.pdb
+*.mdb
+*.sln.docstates
+*.sln.ide

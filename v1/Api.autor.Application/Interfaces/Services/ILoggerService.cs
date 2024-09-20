@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Api.autor.Application.Interfaces
+namespace Api.autor.Application.Interfaces.Services
 {
-    internal interface ILogger
+    public interface ILoggerService<T>
     {
         void LogInfo(string message);
         void LogWarning(string message);

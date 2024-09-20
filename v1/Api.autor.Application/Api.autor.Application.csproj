@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="Features\Autor\Commands\" />
     <Folder Include="Features\Books\Querys\" />
+    <Folder Include="Interfaces\ExternalServices\" />
     <Folder Include="Models\Responses\" />
     <Folder Include="Models\Requests\" />
     <Folder Include="UsesCases\" />

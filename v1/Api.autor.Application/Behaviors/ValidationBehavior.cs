@@ -19,7 +19,7 @@ namespace Api.autor.Application.Behavior
                 var failures = validationResults.SelectMany(r => r.Errors).Where(f => f != null).ToList();
                 if (failures.Count > 0)
                 {
-                    throw new ValidationException("error de validación",failures);
+                    throw new Exceptions.ValidationException("error de validación", failures.Select(x => new KeyValuePair<string, string>(x.PropertyName, x.ErrorMessage)));
                 }
             }
             return await next();

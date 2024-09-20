@@ -16,4 +16,8 @@
     <ProjectReference Include="..\Api.autor.IoC\Api.autor.IoC.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Logs\" />
+  </ItemGroup>
+
 </Project>

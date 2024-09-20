@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Api.autor.Application.Interfaces
+namespace Api.autor.Infraestructure.ExternalServices
 {
-    internal interface IEmailService
+    internal class SirenitasApiClient
     {
     }
 }

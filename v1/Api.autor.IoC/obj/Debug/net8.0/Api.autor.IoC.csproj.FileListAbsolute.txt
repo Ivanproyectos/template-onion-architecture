@@ -17,3 +17,27 @@ C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arqui
 C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.IoC\obj\Debug\net8.0\ref\Api.autor.IoC.dll
 C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Application.dll
 C:\Users\USUARIO\Documents\Mis documentos\Proyectos\Mis proyectos\.NET\Api arquitectura Onion\test-onion-autor\api.autor.onion\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Application.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.IoC.deps.json
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.IoC.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.IoC.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Application.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Domain.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Persintence.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Application.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Persintence.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Domain.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.AssemblyInfoInputs.cache
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.AssemblyInfo.cs
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.sourcelink.json
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.auto.3DB473F3.Up2Date
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\refint\Api.autor.IoC.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\Api.autor.IoC.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\obj\Debug\net8.0\ref\Api.autor.IoC.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Infraestructure.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.Infraestructure.pdb
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.ExceptionHandlers.dll
+C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.IoC\bin\Debug\net8.0\Api.autor.ExceptionHandlers.pdb
