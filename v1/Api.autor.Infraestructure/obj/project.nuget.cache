@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b7IJeZo12oQ=",
+  "dgSpecHash": "yuowm/QU2pI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",

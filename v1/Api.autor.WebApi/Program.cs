@@ -1,5 +1,5 @@
 using Api.autor.IoC;
-using Api.autor.WebApi.Midlewars;
+using Api.autor.WebApi.Helper;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,21 +13,22 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 app.ConfigureWebApplication();
 
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-//app.UseMiddleware<ExceptionHandlingMiddleware>();
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+////app.UseMiddleware<ExceptionHandlingMiddleware>();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
-app.MapControllers();
+//app.MapControllers();
 
-app.Run();
+//app.Run();

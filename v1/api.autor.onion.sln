@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.Domain", "Api.aut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.Persintence", "Api.autor.Persintence\Api.autor.Persintence.csproj", "{58F1EB97-4F19-4891-A474-FC28C9C9A9C5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.Infraestructure", "Api.autor.Infraestructure\Api.autor.Infraestructure.csproj", "{F6A984FF-C983-464B-98FC-A07DF53EC07E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.Shared", "Api.autor.Infraestructure\Api.autor.Shared.csproj", "{F6A984FF-C983-464B-98FC-A07DF53EC07E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D53CF0FB-EB9D-4EEB-93DC-CE6CC16029E7}"
 EndProject
@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.Common", "Api.aut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.IoC", "Api.autor.IoC\Api.autor.IoC.csproj", "{C7C49306-861A-430D-B56F-07029A93C76F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.autor.ExceptionHandlers", "Api.autor.ExceptionHandlers\Api.autor.ExceptionHandlers.csproj", "{C409B387-C8BC-482A-8701-32D06C997B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.autor.ExceptionHandlers", "Api.autor.ExceptionHandlers\Api.autor.ExceptionHandlers.csproj", "{C409B387-C8BC-482A-8701-32D06C997B24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

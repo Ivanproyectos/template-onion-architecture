@@ -1,6 +1,6 @@
 ﻿using Api.autor.Application.Interfaces.Services;
 
-namespace Api.autor.Infraestructure.Services
+namespace Api.autor.Shared.Services
 {
     public class LogFileService<T> : ILoggerService<T> where T : class
     {

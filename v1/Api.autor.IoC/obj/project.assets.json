@@ -1412,20 +1412,6 @@
           "bin/placeholder/Api.autor.ExceptionHandlers.dll": {}
         }
       },
-      "Api.autor.Infraestructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Api.autor.Application": "1.0.0",
-          "Serilog.AspNetCore": "8.0.2"
-        },
-        "compile": {
-          "bin/placeholder/Api.autor.Infraestructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Api.autor.Infraestructure.dll": {}
-        }
-      },
       "Api.autor.Persintence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1439,6 +1425,20 @@
         },
         "runtime": {
           "bin/placeholder/Api.autor.Persintence.dll": {}
+        }
+      },
+      "Api.autor.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Api.autor.Application": "1.0.0",
+          "Serilog.AspNetCore": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Api.autor.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Api.autor.Shared.dll": {}
         }
       }
     }
@@ -3782,23 +3782,23 @@
       "path": "../Api.autor.ExceptionHandlers/Api.autor.ExceptionHandlers.csproj",
       "msbuildProject": "../Api.autor.ExceptionHandlers/Api.autor.ExceptionHandlers.csproj"
     },
-    "Api.autor.Infraestructure/1.0.0": {
-      "type": "project",
-      "path": "../Api.autor.Infraestructure/Api.autor.Infraestructure.csproj",
-      "msbuildProject": "../Api.autor.Infraestructure/Api.autor.Infraestructure.csproj"
-    },
     "Api.autor.Persintence/1.0.0": {
       "type": "project",
       "path": "../Api.autor.Persintence/Api.autor.Persintence.csproj",
       "msbuildProject": "../Api.autor.Persintence/Api.autor.Persintence.csproj"
+    },
+    "Api.autor.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Api.autor.Infraestructure/Api.autor.Shared.csproj",
+      "msbuildProject": "../Api.autor.Infraestructure/Api.autor.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Api.autor.Application >= 1.0.0",
       "Api.autor.ExceptionHandlers >= 1.0.0",
-      "Api.autor.Infraestructure >= 1.0.0",
       "Api.autor.Persintence >= 1.0.0",
+      "Api.autor.Shared >= 1.0.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.0"
     ]
@@ -3843,8 +3843,8 @@
             "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj": {
               "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj"
             },
-            "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Infraestructure.csproj"
+            "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj": {
+              "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj"
             },
             "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj": {
               "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj"
@@ -3892,7 +3892,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

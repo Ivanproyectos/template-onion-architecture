@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Api.autor.Application\Api.autor.Application.csproj" />
+    <ProjectReference Include="..\Api.autor.ExceptionHandlers\Api.autor.ExceptionHandlers.csproj" />
     <ProjectReference Include="..\Api.autor.IoC\Api.autor.IoC.csproj" />
   </ItemGroup>
 

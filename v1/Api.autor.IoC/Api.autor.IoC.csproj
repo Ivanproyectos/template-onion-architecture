@@ -14,7 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Api.autor.Application\Api.autor.Application.csproj" />
     <ProjectReference Include="..\Api.autor.ExceptionHandlers\Api.autor.ExceptionHandlers.csproj" />
-    <ProjectReference Include="..\Api.autor.Infraestructure\Api.autor.Infraestructure.csproj" />
+    <ProjectReference Include="..\Api.autor.Infraestructure\Api.autor.Shared.csproj" />
     <ProjectReference Include="..\Api.autor.Persintence\Api.autor.Persintence.csproj" />
   </ItemGroup>
 

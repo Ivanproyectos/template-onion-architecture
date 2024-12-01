@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "Api.autor.WebApi/1.0.0": {
         "dependencies": {
-          "Api.autor.Application": "1.0.0",
+          "Api.autor.ExceptionHandlers": "1.0.0",
           "Api.autor.IoC": "1.0.0",
           "MediatR": "12.4.1",
           "Swashbuckle.AspNetCore": "6.4.0"
@@ -794,21 +794,12 @@
           "Api.autor.ExceptionHandlers.dll": {}
         }
       },
-      "Api.autor.Infraestructure/1.0.0": {
-        "dependencies": {
-          "Api.autor.Application": "1.0.0",
-          "Serilog.AspNetCore": "8.0.2"
-        },
-        "runtime": {
-          "Api.autor.Infraestructure.dll": {}
-        }
-      },
       "Api.autor.IoC/1.0.0": {
         "dependencies": {
           "Api.autor.Application": "1.0.0",
           "Api.autor.ExceptionHandlers": "1.0.0",
-          "Api.autor.Infraestructure": "1.0.0",
           "Api.autor.Persintence": "1.0.0",
+          "Api.autor.Shared": "1.0.0",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
@@ -824,6 +815,15 @@
         },
         "runtime": {
           "Api.autor.Persintence.dll": {}
+        }
+      },
+      "Api.autor.Shared/1.0.0": {
+        "dependencies": {
+          "Api.autor.Application": "1.0.0",
+          "Serilog.AspNetCore": "8.0.2"
+        },
+        "runtime": {
+          "Api.autor.Shared.dll": {}
         }
       }
     }
@@ -1430,17 +1430,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Api.autor.Infraestructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "Api.autor.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Api.autor.Persintence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Api.autor.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
