@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Domain.Interfaces
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork: IDisposable
     {
+        Task BeginTransactionAsync();
+        Task CommitAsync();
+        Task RollbackAsync();
+        Task<int> SaveChangesAsync();
     }
 }

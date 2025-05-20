@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LibraryManagement.Application\LibraryManagement.Application.csproj" />
+    <ProjectReference Include="..\LibraryManagement.Persistence\LibraryManagement.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

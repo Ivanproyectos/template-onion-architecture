@@ -1,4 +1,7 @@
-﻿using LibraryManagement.Persistence.Contexts;
+﻿using LibraryManagement.Domain.Interfaces;
+using LibraryManagement.Domain.Interfaces.Repositories;
+using LibraryManagement.Persistence.Contexts;
+using LibraryManagement.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +17,8 @@ namespace LibraryManagement.Persistence
               options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
                   ServerVersion.AutoDetect(configuration.GetConnectionString("DefaultConnection")));
           });
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
 
             return services;
         }

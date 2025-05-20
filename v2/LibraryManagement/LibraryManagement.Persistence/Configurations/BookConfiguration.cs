@@ -1,29 +1,32 @@
-﻿using LibraryManagement.Domain.Entities;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using LibraryManagement.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace LibraryManagement.Persistence.Configurations
 {
-    public class AuthorConfiguration : IEntityTypeConfiguration<Author>
+    internal class BookConfiguration : IEntityTypeConfiguration<Book>
     {
-        public void Configure(EntityTypeBuilder<Author> builder)
+        public void Configure(EntityTypeBuilder<Book> builder)
         {
             builder.HasKey(x => x.Id);
-             builder.Property(x => x.Id)
+            builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
                 .IsRequired();
 
-            builder.Property(x => x.Name)
-                .HasMaxLength(50)
+            builder.Property(x => x.Title)
+                .HasMaxLength(100)
                 .IsRequired();
 
-            builder.Property(x => x.Nationality)
-                .HasMaxLength(50); 
+            builder.Property(x => x.AuthorId)
+                .IsRequired();
 
-            builder.HasMany(x => x.Books)
-                .WithOne()
-                .HasForeignKey(x => x.AuthorId)
-                .OnDelete(DeleteBehavior.NoAction);
+            builder.Property(x => x.PublicationYear)
+                .IsRequired();
 
             builder.Property(x => x.CreatedBy)
                 .IsRequired();

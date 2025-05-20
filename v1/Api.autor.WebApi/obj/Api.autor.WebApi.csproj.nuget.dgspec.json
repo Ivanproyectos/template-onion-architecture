@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj": {}
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
         "projectName": "Api.autor.Application",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\obj\\",
+        "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
+        "packagesPath": "C:\\Users\\ISP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj"
               }
             }
           }
@@ -44,7 +47,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -83,21 +87,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj",
         "projectName": "Api.autor.Domain",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\obj\\",
+        "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj",
+        "packagesPath": "C:\\Users\\ISP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,7 +113,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,7 +130,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -144,21 +152,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj": {
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj",
+        "projectUniqueName": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj",
         "projectName": "Api.autor.ExceptionHandlers",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\obj\\",
+        "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj",
+        "packagesPath": "C:\\Users\\ISP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,15 +178,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj"
               }
             }
           }
@@ -188,7 +199,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -223,21 +235,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj": {
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj",
         "projectName": "Api.autor.Shared",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\obj\\",
+        "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj",
+        "packagesPath": "C:\\Users\\ISP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,15 +261,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj"
               }
             }
           }
@@ -267,7 +282,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -294,21 +310,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj": {
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj",
         "projectName": "Api.autor.IoC",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.IoC\\obj\\",
+        "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj",
+        "packagesPath": "C:\\Users\\ISP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.IoC\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -316,24 +336,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj"
               },
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj"
               },
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Infraestructure\\Api.autor.Shared.csproj"
               },
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj"
               }
             }
           }
@@ -347,7 +366,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -378,21 +398,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj": {
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj",
+        "projectUniqueName": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj",
         "projectName": "Api.autor.Persintence",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Persintence\\obj\\",
+        "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Persintence\\Api.autor.Persintence.csproj",
+        "packagesPath": "C:\\Users\\ISP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Persintence\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -400,15 +424,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Domain\\Api.autor.Domain.csproj"
               }
             }
           }
@@ -422,7 +445,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -465,21 +489,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj": {
+    "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj",
         "projectName": "Api.autor.WebApi",
-        "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.WebApi\\obj\\",
+        "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.WebApi\\Api.autor.WebApi.csproj",
+        "packagesPath": "C:\\Users\\ISP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.WebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ISP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -487,18 +515,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.ExceptionHandlers\\Api.autor.ExceptionHandlers.csproj"
               },
-              "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj": {
-                "projectPath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj"
+              "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj": {
+                "projectPath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.IoC\\Api.autor.IoC.csproj"
               }
             }
           }
@@ -512,7 +539,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -546,7 +574,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibraryManagement.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,16 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Domain.Interfaces.Repositories
 {
-    internal interface IBookRepository
+    public interface IBookRepository
     {
+        public Task<List<Book>> GetAllAsync();
+
+        public Task<Book> GetAsync(int id);
+
+        public Task<bool> ExistsAsync(int id);
+        public Task DeleteAsync(int id);
+
+        public Task<Book> AddAsync(Book author);
+        public Task<Book> UpdateAsync(Book author);
     }
 }
