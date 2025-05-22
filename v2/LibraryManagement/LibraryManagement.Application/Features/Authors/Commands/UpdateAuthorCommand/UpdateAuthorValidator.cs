@@ -6,10 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryManagement.Application.Features.Author.Queries.GetAllAuthorQuery
+namespace LibraryManagement.Application.Features.Authors.Commands.UpdateAuthorCommand
 {
-    internal class GetAllAuthorQuery: IRequest<List<AuthorResponse>>
+    public class UpdateAuthorValidator 
     {
-
     }
 }

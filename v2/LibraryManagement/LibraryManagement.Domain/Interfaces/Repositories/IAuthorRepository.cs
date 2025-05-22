@@ -14,7 +14,7 @@ namespace LibraryManagement.Domain.Interfaces.Repositories
         public Task<Author?> GetAsync(int id);
 
         public Task<bool> ExistsAsync(int id);
-        public Task DeleteAsync(int id);
+        public Task DeleteAsync(Author author);
 
         public Task<Author> AddAsync(Author author);
         public Task<Author> UpdateAsync(Author author);

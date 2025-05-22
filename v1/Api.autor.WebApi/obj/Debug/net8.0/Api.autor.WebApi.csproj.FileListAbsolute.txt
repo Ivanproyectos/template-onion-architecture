@@ -175,7 +175,6 @@ C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebAp
 C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebApi\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebApi\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebApi\bin\Debug\net8.0\Serilog.Sinks.File.dll
-C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebApi\bin\Debug\net8.0\System.Text.Json.dll
 C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebApi\bin\Debug\net8.0\Api.autor.ExceptionHandlers.dll
 C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebApi\bin\Debug\net8.0\Api.autor.ExceptionHandlers.pdb
 C:\Users\USUARIO\Documents\GitHub\template-onion-architecture\v1\Api.autor.WebApi\bin\Debug\net8.0\Api.autor.Shared.dll

@@ -28,7 +28,7 @@ namespace LibraryManagement.Persistence.Migrations
                     CreatedBy = table.Column<int>(type: "int", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     UpdatedBy = table.Column<int>(type: "int", nullable: true),
-                    UpdatedDate = table.Column<DateTime>(type: "datetime(6)", nullable: false)
+                    UpdatedDate = table.Column<DateTime>(type: "datetime(6)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -49,7 +49,7 @@ namespace LibraryManagement.Persistence.Migrations
                     CreatedBy = table.Column<int>(type: "int", nullable: false),
                     CreatedDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     UpdatedBy = table.Column<int>(type: "int", nullable: true),
-                    UpdatedDate = table.Column<DateTime>(type: "datetime(6)", nullable: false)
+                    UpdatedDate = table.Column<DateTime>(type: "datetime(6)", nullable: true)
                 },
                 constraints: table =>
                 {

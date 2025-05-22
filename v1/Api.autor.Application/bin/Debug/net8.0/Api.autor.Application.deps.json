@@ -103,7 +103,10 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
       "Api.autor.Domain/1.0.0": {
         "runtime": {
-          "Api.autor.Domain.dll": {}
+          "Api.autor.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

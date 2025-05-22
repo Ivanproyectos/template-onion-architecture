@@ -9,7 +9,8 @@ namespace LibraryManagement.Persistence.Repositories
     {
         public async Task<List<Author>> GetAllAsync()
         {
-            return await dbContext.Authors.ToListAsync();
+            return await dbContext.Authors.Include(a => a.Books)
+                .ToListAsync();
         }
 
         public async Task<Author?> GetAsync(int id)
@@ -22,28 +23,24 @@ namespace LibraryManagement.Persistence.Repositories
             return await dbContext.Authors.AnyAsync(a => a.Id == id);
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Author author)
         {
-            var author = await dbContext.Authors.FirstOrDefaultAsync(a => a.Id == id);
             if (author != null)
             {
                 dbContext.Authors.Remove(author);
             }
 
-            await dbContext.SaveChangesAsync();
         }
 
         public async Task<Author> AddAsync(Author author)
         {
             await dbContext.Authors.AddAsync(author);
-            await dbContext.SaveChangesAsync();
             return author;
         }
 
         public Task<Author> UpdateAsync(Author author)
         {
             dbContext.Authors.Update(author);
-            dbContext.SaveChangesAsync();
             return Task.FromResult(author);
         }
     }

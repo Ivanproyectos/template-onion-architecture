@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.Domain.Entities
 {
-    public class Author: BaseEntity
+    public class Author : BaseEntity
     {
         public string Name { get; private set; }
         public string Nationality { get; private set; }
@@ -29,10 +29,21 @@ namespace LibraryManagement.Domain.Entities
 
             return new Author(name, nationality);
         }
+        public void UpdateDetails(string newName, string newNationality)
+        {
+            if (string.IsNullOrWhiteSpace(newName))
+                throw new ArgumentException("El nombre es obligatorio.", nameof(newName));
+
+            Name = newName;
+            Nationality = newNationality;
+        }
 
         public void AddBook(string title, int year)
         {
             var book = Book.Create(title, year);
+            if (_books.Any(b => b.Title == title && b.PublicationYear == year))
+                throw new InvalidOperationException("El libro ya ha sido agregado.");
+
             _books.Add(book);
         }
 

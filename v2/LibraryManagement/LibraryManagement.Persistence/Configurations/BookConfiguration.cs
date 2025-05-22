@@ -32,9 +32,6 @@ namespace LibraryManagement.Persistence.Configurations
                 .IsRequired();
 
             builder.Property(x => x.UpdatedDate)
-                .IsRequired();
-
-            builder.Property(x => x.UpdatedBy)
                 .IsRequired(false);
 
             builder.Property(x => x.UpdatedBy)

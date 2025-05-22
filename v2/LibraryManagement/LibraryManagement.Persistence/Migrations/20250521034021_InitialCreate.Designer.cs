@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagement.Persistence.Migrations
 {
     [DbContext(typeof(MysqlContext))]
-    [Migration("20250519001923_InitialCreate")]
+    [Migration("20250521034021_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -53,7 +53,6 @@ namespace LibraryManagement.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedDate")
-                        .IsRequired()
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
@@ -90,7 +89,6 @@ namespace LibraryManagement.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedDate")
-                        .IsRequired()
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");

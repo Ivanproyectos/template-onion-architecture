@@ -25,19 +25,18 @@ namespace LibraryManagement.Persistence.Configurations
                 .HasForeignKey(x => x.AuthorId)
                 .OnDelete(DeleteBehavior.NoAction);
 
+            builder
+           .Navigation(a => a.Books)
+           .UsePropertyAccessMode(PropertyAccessMode.Field);
+
             builder.Property(x => x.CreatedBy)
                 .IsRequired();
 
             builder.Property(x => x.UpdatedDate)
-                .IsRequired();
-
-            builder.Property(x => x.UpdatedBy)
                 .IsRequired(false);
 
             builder.Property(x => x.UpdatedBy)
                 .IsRequired(false);
-
-
         }
     }
 }

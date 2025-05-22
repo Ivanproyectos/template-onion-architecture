@@ -50,7 +50,6 @@ namespace LibraryManagement.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedDate")
-                        .IsRequired()
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
@@ -87,7 +86,6 @@ namespace LibraryManagement.Persistence.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdatedDate")
-                        .IsRequired()
                         .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");

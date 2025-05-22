@@ -738,12 +738,6 @@
       "System.Text.Json/8.0.4": {
         "dependencies": {
           "System.Text.Encodings.Web": "8.0.0"
-        },
-        "runtime": {
-          "lib/net8.0/System.Text.Json.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.724.31311"
-          }
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {},
@@ -775,12 +769,18 @@
           "MediatR": "12.4.1"
         },
         "runtime": {
-          "Api.autor.Application.dll": {}
+          "Api.autor.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.autor.Domain/1.0.0": {
         "runtime": {
-          "Api.autor.Domain.dll": {}
+          "Api.autor.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.autor.ExceptionHandlers/1.0.0": {
@@ -791,7 +791,10 @@
           "Microsoft.Extensions.Hosting.Abstractions": "8.0.0"
         },
         "runtime": {
-          "Api.autor.ExceptionHandlers.dll": {}
+          "Api.autor.ExceptionHandlers.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.autor.IoC/1.0.0": {
@@ -804,7 +807,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
         },
         "runtime": {
-          "Api.autor.IoC.dll": {}
+          "Api.autor.IoC.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.autor.Persintence/1.0.0": {
@@ -814,7 +820,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
         },
         "runtime": {
-          "Api.autor.Persintence.dll": {}
+          "Api.autor.Persintence.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Api.autor.Shared/1.0.0": {
@@ -823,7 +832,10 @@
           "Serilog.AspNetCore": "8.0.2"
         },
         "runtime": {
-          "Api.autor.Shared.dll": {}
+          "Api.autor.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

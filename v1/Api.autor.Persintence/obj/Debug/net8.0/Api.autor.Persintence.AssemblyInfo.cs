@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api.autor.Persintence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8cfe8e4891149887c30820dd72fbf0adf0f870a1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2df27f5869b580569288f06792d6f04143373a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api.autor.Persintence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api.autor.Persintence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
