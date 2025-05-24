@@ -29,7 +29,10 @@ namespace LibraryManagement.Persistence.Configurations
                 .IsRequired();
 
             builder.Property(x => x.CreatedBy)
-                .IsRequired();
+                .IsRequired(false);
+
+            builder.Property(x => x.CreatedDate)
+                .IsRequired(false);
 
             builder.Property(x => x.UpdatedDate)
                 .IsRequired(false);

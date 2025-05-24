@@ -11,6 +11,6 @@ namespace LibraryManagement.Domain.Interfaces
         Task BeginTransactionAsync();
         Task CommitAsync();
         Task RollbackAsync();
-        Task<int> SaveChangesAsync();
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

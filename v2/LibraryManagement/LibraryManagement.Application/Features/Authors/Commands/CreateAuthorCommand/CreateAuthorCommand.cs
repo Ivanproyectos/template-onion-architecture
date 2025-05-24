@@ -3,7 +3,7 @@ using MediatR;
 
 namespace LibraryManagement.Application.Features.Authors.Commands.CreateAuthorCommand
 {
-    public class CreateAuthorCommand : IRequest<AuthorResponse>
+    public class CreateAuthorCommand : IRequest<AuthorResponseDto>
     {
         public string Name { get; set; }
         public string Nationality { get; set; }

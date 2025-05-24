@@ -30,7 +30,10 @@ namespace LibraryManagement.Persistence.Configurations
            .UsePropertyAccessMode(PropertyAccessMode.Field);
 
             builder.Property(x => x.CreatedBy)
-                .IsRequired();
+                          .IsRequired(false);
+
+            builder.Property(x => x.CreatedDate)
+                .IsRequired(false);
 
             builder.Property(x => x.UpdatedDate)
                 .IsRequired(false);

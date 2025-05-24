@@ -22,28 +22,20 @@ namespace LibraryManagement.Persistence.Repositories
             return await dbContext.Books.AnyAsync(a => a.Id == id);
         }
 
-        public async Task DeleteAsync(int id)
+        public void DeleteAsync(Book Book)
         {
-            var Book = await dbContext.Books.FirstOrDefaultAsync(a => a.Id == id);
-            if (Book != null)
-            {
-                dbContext.Books.Remove(Book);
-            }
-
-            await dbContext.SaveChangesAsync();
+            dbContext.Books.Remove(Book);
         }
 
         public async Task<Book> AddAsync(Book Book)
         {
             await dbContext.Books.AddAsync(Book);
-            await dbContext.SaveChangesAsync();
             return Book;
         }
 
         public Task<Book> UpdateAsync(Book Book)
         {
             dbContext.Books.Update(Book);
-            dbContext.SaveChangesAsync();
             return Task.FromResult(Book);
         }
     }

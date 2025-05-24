@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using LibraryManagement.Common.Dtos;
 using LibraryManagement.Domain.Entities;
+
 
 namespace LibraryManagement.Domain.Interfaces.Repositories
 {
     public interface IAuthorRepository
     {
+        public Task<PaginatedList<Author>> GetAllPagedAsync(int page, int pageSize);
         public Task<List<Author>> GetAllAsync();
 
         public Task<Author?> GetAsync(int id);

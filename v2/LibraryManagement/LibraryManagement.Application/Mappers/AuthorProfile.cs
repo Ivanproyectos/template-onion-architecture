@@ -8,7 +8,7 @@ namespace LibraryManagement.Application.Mappers
     {
         public AuthorProfile()
         {
-            CreateMap<Author, AuthorResponse>();
+            CreateMap<Author, AuthorResponseDto>();
 
         }
     }

@@ -18,8 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Books\Commands\CreateBookCommand\" />
-    <Folder Include="Features\Books\Queries\" />
+    <Folder Include="Features\Login\" />
   </ItemGroup>
 
 </Project>

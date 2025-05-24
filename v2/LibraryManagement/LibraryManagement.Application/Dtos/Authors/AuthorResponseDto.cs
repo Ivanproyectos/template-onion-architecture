@@ -7,10 +7,10 @@ using LibraryManagement.Application.Dtos.Books;
 
 namespace LibraryManagement.Application.Dtos.Author
 {
-    public record struct AuthorResponse(
+    public record struct AuthorResponseDto(
         int Id,
         string Name,
         string Nationality,
-        List<BookResponse> books
+        List<BookResponseDto> books
     ) { }
 }

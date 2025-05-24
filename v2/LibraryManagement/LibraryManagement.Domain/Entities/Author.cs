@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LibraryManagement.Domain.Entities
+﻿namespace LibraryManagement.Domain.Entities
 {
     public class Author : BaseEntity
     {
@@ -29,6 +23,7 @@ namespace LibraryManagement.Domain.Entities
 
             return new Author(name, nationality);
         }
+
         public void UpdateDetails(string newName, string newNationality)
         {
             if (string.IsNullOrWhiteSpace(newName))
@@ -40,12 +35,11 @@ namespace LibraryManagement.Domain.Entities
 
         public void AddBook(string title, int year)
         {
-            var book = Book.Create(title, year);
+            var book = Book.Create(0, title, year);
             if (_books.Any(b => b.Title == title && b.PublicationYear == year))
                 throw new InvalidOperationException("El libro ya ha sido agregado.");
 
             _books.Add(book);
         }
-
     }
 }

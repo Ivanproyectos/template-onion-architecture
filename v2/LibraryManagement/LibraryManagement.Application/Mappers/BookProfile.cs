@@ -8,7 +8,7 @@ namespace LibraryManagement.Application.Mappers
     {
         public BookProfile()    
         {
-            CreateMap<Book, BookResponse>();
+            CreateMap<Book, BookResponseDto>();
         }
     }
 }

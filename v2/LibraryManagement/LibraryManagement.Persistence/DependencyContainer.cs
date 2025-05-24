@@ -19,6 +19,7 @@ namespace LibraryManagement.Persistence
           });
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAuthorRepository, AuthorRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
 
             return services;
         }

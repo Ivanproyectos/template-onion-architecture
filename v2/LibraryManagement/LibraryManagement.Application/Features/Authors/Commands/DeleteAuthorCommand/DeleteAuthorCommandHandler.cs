@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LibraryManagement.Domain.Interfaces;
+﻿using LibraryManagement.Domain.Interfaces;
 using LibraryManagement.Domain.Interfaces.Repositories;
 using MediatR;
 
@@ -14,9 +9,13 @@ namespace LibraryManagement.Application.Features.Authors.Commands.DeleteAuthorCo
         private readonly IAuthorRepository _authorRepository;
         private readonly IUnitOfWork _unitOfWork;
 
-        public DeleteAuthorCommandHandler(IAuthorRepository authorRepository)
+        public DeleteAuthorCommandHandler(
+            IAuthorRepository authorRepository,
+            IUnitOfWork unitOfWork
+        )
         {
             _authorRepository = authorRepository;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<Unit> Handle(

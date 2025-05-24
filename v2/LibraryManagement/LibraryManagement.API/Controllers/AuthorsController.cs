@@ -1,6 +1,7 @@
 ﻿using LibraryManagement.Application.Features.Authors.Commands.CreateAuthorCommand;
 using LibraryManagement.Application.Features.Authors.Commands.DeleteAuthorCommand;
 using LibraryManagement.Application.Features.Authors.Commands.UpdateAuthorCommand;
+using LibraryManagement.Application.Features.Authors.Queries.GetAllAuthorPagedQuery;
 using LibraryManagement.Application.Features.Authors.Queries.GetAllAuthorQuery;
 using Microsoft.AspNetCore.Mvc;
 
@@ -13,6 +14,13 @@ namespace LibraryManagement.API.Controllers
         {
             return Ok(await Mediator.Send(getAllAuthorQuery));
         }
+
+        [HttpGet("paged")]
+        public async Task<IActionResult> GetAllPaged([FromQuery] GetAllAuthorPagedQuery getAllAuthorQuery)
+        {
+            return Ok(await Mediator.Send(getAllAuthorQuery));
+        }
+
 
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateAuthorCommand createAuthorCommand)

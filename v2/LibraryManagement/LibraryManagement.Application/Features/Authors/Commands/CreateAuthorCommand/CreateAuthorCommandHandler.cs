@@ -7,7 +7,7 @@ using MediatR;
 
 namespace LibraryManagement.Application.Features.Authors.Commands.CreateAuthorCommand
 {
-    internal class CreateAuthorCommandHandler : IRequestHandler<CreateAuthorCommand, AuthorResponse>
+    internal class CreateAuthorCommandHandler : IRequestHandler<CreateAuthorCommand, AuthorResponseDto>
     {
         private readonly IAuthorRepository _authorRepository;
         private readonly IUnitOfWork _unitOfWork;
@@ -24,13 +24,13 @@ namespace LibraryManagement.Application.Features.Authors.Commands.CreateAuthorCo
             _mapper = mapper;
         }
 
-        public async Task<AuthorResponse> Handle(
+        public async Task<AuthorResponseDto> Handle(
             CreateAuthorCommand request,
             CancellationToken cancellationToken
         )
         {
             var author = Author.Create(request.Name, request.Nationality);
-            var books = request.Books.Select(x => Book.Create(x.Title, x.PublicationYear)).ToList();
+            var books = request.Books.Select(x => Book.Create(0,x.Title, x.PublicationYear)).ToList();
 
             foreach (var book in books)
             {
@@ -42,7 +42,7 @@ namespace LibraryManagement.Application.Features.Authors.Commands.CreateAuthorCo
 
             await _unitOfWork.CommitAsync();
 
-            return _mapper.Map<AuthorResponse>(author);
+            return _mapper.Map<AuthorResponseDto>(author);
         }
     }
 }
