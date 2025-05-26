@@ -16,8 +16,8 @@ Está especialmente diseñado como **guía práctica para desarrolladores que es
 - ✅ Validaciones con **FluentValidation**.
 - ✅ Uso de **DTOs** para entrada y salida de datos.
 - ✅ Prácticas modernas con .NET 8 (minimal APIs o controllers, DI, records, etc).
-- ✅ Patron Unit of work para transacciones con bases de datos
-
+- ✅ Patrón Unit of Work se encarga de coordinar y agrupar múltiples operaciones (como inserciones, actualizaciones, eliminaciones) en una única transacción de base de datos.
+- ✅ Enfoque DDD para modelar objetos de dominio inmutables, representando conceptos del negocio de forma clara, segura y predecible. 
 ---
 
 ## 📚 Estructura del Proyecto
@@ -75,11 +75,6 @@ Está especialmente diseñado como **guía práctica para desarrolladores que es
 
 ```bash
 git clone https://github.com/Ivanproyectos/template-onion-architecture.git
-cd cd v2/LibraryManagement
-code . 
-dotnet restore
-dotnet build
-dotnet run --project src/API
 ```
 # Iniciar proyecto en visual code 
 iniciar migracion de base de datos y proyecto
