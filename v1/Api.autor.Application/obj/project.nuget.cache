@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "yUKOJgQUND4=",
+  "dgSpecHash": "93vLCpWyNu0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\Documents\\GitHub\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
+  "projectFilePath": "C:\\Users\\ISP\\Documents\\Proyectos\\template-onion-architecture\\v1\\Api.autor.Application\\Api.autor.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USUARIO\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.10.0\\fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\USUARIO\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\ISP\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.10.0\\fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\ISP\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="External\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\LibraryManagement.Application\LibraryManagement.Application.csproj" />
+    <ProjectReference Include="..\LibraryManagement.Domain\LibraryManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>

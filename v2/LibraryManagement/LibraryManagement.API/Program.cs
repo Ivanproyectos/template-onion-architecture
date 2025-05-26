@@ -1,19 +1,21 @@
-using LibraryManagement.Persistence;
+using LibraryManagement.API.Middlewares;
 using LibraryManagement.Application;
+using LibraryManagement.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddApplication();
 builder.Services.AddApplicationServices();
 
 builder.Services.AddPersistence(builder.Configuration);
-
 
 var app = builder.Build();
 
@@ -29,5 +31,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseMiddleware<ExceptionHadlerMiddleware>();
 
 app.Run();

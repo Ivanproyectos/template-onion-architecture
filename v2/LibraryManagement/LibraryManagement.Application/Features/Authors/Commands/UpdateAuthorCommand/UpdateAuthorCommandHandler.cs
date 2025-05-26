@@ -26,7 +26,8 @@ namespace LibraryManagement.Application.Features.Authors.Commands.UpdateAuthorCo
         public async Task<Unit> Handle(
             UpdateAuthorCommand request,
             CancellationToken cancellationToken
-        ) { 
+        )
+        {
             var author = await _authorRepository.GetAsync(request.Id);
 
             if (author == null)
@@ -34,14 +35,13 @@ namespace LibraryManagement.Application.Features.Authors.Commands.UpdateAuthorCo
                 throw new Exception($"Author with id {request.Id} not found");
             }
 
-            author.UpdateDetails(request.Name, request.Nationality); 
+            author.UpdateDetails(request.Name, request.Nationality);
 
             await _authorRepository.UpdateAsync(author);
 
             await _unitOfWork.SaveChangesAsync();
-            
-            return Unit.Value;
 
+            return Unit.Value;
         }
     }
 }

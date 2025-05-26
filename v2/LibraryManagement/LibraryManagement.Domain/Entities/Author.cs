@@ -1,6 +1,6 @@
 ﻿namespace LibraryManagement.Domain.Entities
 {
-    public class Author : BaseEntity
+    public class Author : Entity
     {
         public string Name { get; private set; }
         public string Nationality { get; private set; }
@@ -35,7 +35,10 @@
 
         public void AddBook(string title, int year)
         {
-            var book = Book.Create(0, title, year);
+            var book = Book.Create(title, year);
+
+            book.AssignAuthor(this.Id);
+
             if (_books.Any(b => b.Title == title && b.PublicationYear == year))
                 throw new InvalidOperationException("El libro ya ha sido agregado.");
 

@@ -14,33 +14,21 @@ namespace LibraryManagement.Persistence.Configurations
         public void Configure(EntityTypeBuilder<Book> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.Property(x => x.Id)
-                .ValueGeneratedOnAdd()
-                .IsRequired();
+            builder.Property(x => x.Id).ValueGeneratedOnAdd().IsRequired();
 
-            builder.Property(x => x.Title)
-                .HasMaxLength(100)
-                .IsRequired();
+            builder.Property(x => x.Title).HasMaxLength(100).IsRequired();
 
-            builder.Property(x => x.AuthorId)
-                .IsRequired();
+            builder.Property(x => x.AuthorId).IsRequired();
 
-            builder.Property(x => x.PublicationYear)
-                .IsRequired();
+            builder.Property(x => x.PublicationYear).IsRequired();
 
-            builder.Property(x => x.CreatedBy)
-                .IsRequired(false);
+            builder.Property(x => x.CreatedBy).IsRequired(false);
 
-            builder.Property(x => x.CreatedDate)
-                .IsRequired(false);
+            builder.Property(x => x.CreatedDate).IsRequired(false);
 
-            builder.Property(x => x.UpdatedDate)
-                .IsRequired(false);
+            builder.Property(x => x.UpdatedDate).IsRequired(false);
 
-            builder.Property(x => x.UpdatedBy)
-                .IsRequired(false);
-
-
+            builder.Property(x => x.UpdatedBy).IsRequired(false);
         }
     }
 }

@@ -29,7 +29,8 @@ namespace LibraryManagement.Application.Features.Books.Commands.CreateBookComman
             CancellationToken cancellationToken
         )
         {
-            var book = Book.Create(request.AuthorId, request.Title, request.PublicationYear);
+            var book = Book.Create(request.Title, request.PublicationYear);
+            book.AssignAuthor(request.AuthorId);
 
             await _bookRepository.AddAsync(book);
 

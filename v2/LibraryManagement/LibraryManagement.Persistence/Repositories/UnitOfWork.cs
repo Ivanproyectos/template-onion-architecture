@@ -1,25 +1,27 @@
-﻿using LibraryManagement.Domain.Interfaces;
+﻿using System.Data;
+using LibraryManagement.Domain.Interfaces;
 using LibraryManagement.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using System.Data;
 
 namespace LibraryManagement.Persistence.Repositories
 {
-    public class UnitOfWork(MysqlContext context): IUnitOfWork
+    public class UnitOfWork(MysqlContext context) : IUnitOfWork
     {
         private IDbContextTransaction _transaction;
 
         public async Task BeginTransactionAsync()
         {
-            _transaction = await context.Database.BeginTransactionAsync(IsolationLevel.ReadCommitted);
+            _transaction = await context.Database.BeginTransactionAsync(
+                IsolationLevel.ReadCommitted
+            );
         }
 
-        public async Task CommitAsync()
+        public async Task CommitAsync(CancellationToken cancellationToken = default)
         {
             try
             {
-                await context.SaveChangesAsync();
+                await context.SaveChangesAsync(cancellationToken);
                 if (_transaction != null)
                 {
                     await _transaction.CommitAsync();

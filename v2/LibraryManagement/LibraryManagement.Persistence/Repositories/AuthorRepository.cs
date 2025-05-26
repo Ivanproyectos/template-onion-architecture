@@ -15,7 +15,9 @@ namespace LibraryManagement.Persistence.Repositories
 
         public async Task<Author?> GetAsync(int id)
         {
-            return await dbContext.Authors.FirstOrDefaultAsync(a => a.Id == id);
+            return await dbContext
+                .Authors.Include(a => a.Books)
+                .FirstOrDefaultAsync(a => a.Id == id);
         }
 
         public async Task<bool> ExistsAsync(int id)

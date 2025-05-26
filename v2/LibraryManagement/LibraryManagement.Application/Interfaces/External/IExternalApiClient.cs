@@ -4,9 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryManagement.Application.Features.Books.Commands
+namespace LibraryManagement.Application.Interfaces.External
 {
-    internal class CreateBookCommandValidator
-    {
-    }
+    public interface IExternalApiClient { }
 }
