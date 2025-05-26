@@ -1,37 +1,105 @@
-# Template onion architecture
+# 🧱 Plantilla de Arquitectura Onion con CQRS, DDD y Clean Architecture (.NET 8)
 
-Este template en .NET 8 implementa la arquitectura Onion, diseñado para reutilizar y modularizar aplicaciones siguiendo buenas prácticas y principios de código limpio. Incluye un ejemplo sencillo de gestión de autores y libros, ideal para proyectos escalables y mantenibles
+Este proyecto es una **plantilla base reutilizable** para desarrollar APIs RESTful usando **.NET 8**, aplicando **Clean Architecture (Arquitectura Onion)** con los principios de **DDD (Domain-Driven Design)** y el patrón **CQRS** (Command Query Responsibility Segregation) usando **MediatR**.
 
-## Patrones usados
+Está especialmente diseñado como **guía práctica para desarrolladores que están comenzando con arquitectura limpia**, permitiendo entender y aplicar estos conceptos en un proyecto real, simple y bien estructurado.
 
-| Patron             | Responsabilidad                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| MediatR | Implementa el patrón Mediator para centralizar la comunicación entre objetos sin que estos se conozcan entre sí, facilitando el desacoplamiento y la organización de código |
-| Specification | Define criterios de búsqueda o filtros como objetos reutilizables y combinables, facilitando consultas complejas de manera flexible y desacoplada. |
-| Repository | Abstrae el acceso a la base de datos, proporcionando una capa intermedia entre el dominio y la persistencia, permitiendo manejar datos como colecciones en memoria |
-| CQRS| Separa las operaciones de lectura (queries) y escritura (commands) en diferentes modelos, optimizando el rendimiento y la organización del código|
+---
 
-## Bibliotecas 
+## 🚀 ¿Qué incluye esta plantilla?
 
-| Patron             | Responsabilidad                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| FluentValidation | Es una biblioteca que permite implementar validaciones de manera fluida y declarativa para asegurar que los datos ingresados cumplan con ciertas reglas, mejorando la claridad y mantenibilidad del código |
-| Mapper (AutoMapper) | Es una biblioteca utilizada para mapear objetos de un tipo a otro (por ejemplo, entidades de base de datos a DTOs), automatizando y simplificando la conversión entre modelos y reduciendo el código repetitivo |
+- ✅ Estructura modular y desacoplada basada en la **Arquitectura Onion**.
+- ✅ Separación clara entre **capa de dominio, aplicación, infraestructura y presentación (API)**.
+- ✅ Implementación completa de un CRUD para **Autores** y **Libros**.
+- ✅ Patrón **CQRS** con **MediatR** para separar comandos (escritura) y queries (lectura).
+- ✅ Persistencia con **Entity Framework Core**.
+- ✅ Validaciones con **FluentValidation**.
+- ✅ Uso de **DTOs** para entrada y salida de datos.
+- ✅ Prácticas modernas con .NET 8 (minimal APIs o controllers, DI, records, etc).
+- ✅ Patron Unit of work para transacciones con bases de datos
 
+---
 
-## Iniciar migraciones
+## 📚 Estructura del Proyecto
 
-Para migrar los objetos de base de datos, actualiza la cadena de conexión en la clase AuthorDbFactory dentro de la capa de persistencia. Luego, abre la Consola del Administrador de Paquetes de NuGet y ejecuta el siguiente comando:
+```plaintext
+/src
+├── Application
+│   ├── Authors
+│   │   ├── Commands
+│   │   ├── Queries
+│   │   ├── Dtos
+│   │   └── Validators
+│   └── Interfaces
+│       ├── Repositories
+│       └── Services
+│
+├── Domain
+│   ├── Entities
+│   └── Repositories (interfaces)
+│
+├── Infrastructure
+│   ├── Persistence (EF Core)
+│   ├── Services (implementaciones técnicas: Email, etc)
+│   └── DependencyInjection
+│
+├── API
+│   ├── Controllers
+│   ├── Middlewares
+│   └── Program.cs / Startup.cs
+```
+## 📦 Tecnologías utilizadas
+
+- .NET 8
+- MediatR para patrón CQRS
+- Entity Framework Core
+- FluentValidation
+- AutoMapper
+
+## 🧠 ¿Por qué usar esta plantilla?
+
+- ✅ Facilita la comprensión de Clean Architecture para nuevos desarrolladores.
+- ✅ Aísla la lógica de negocio del acceso a datos y frameworks.
+- ✅ Promueve el uso de principios SOLID, modularidad y testabilidad.
+- ✅ Mejora la mantenibilidad al crecer el proyecto.
+- ✅ Reutilizable para cualquier CRUD con pequeños ajustes.
+
+## 🛠️ Cómo empezar
+
+# Requisitos:
+- .NET 8 SDK
+- Visual Studio 2022 / VS Code / Rider
+- SQL Server LocalDB / SQLite (configurable en appsettings.json)
+
+# Clonar y ejecutar:
 
 ```bash
-add-migration InitialMigration -p Api.autor.Persintence -s Api.autor.Persintence -c AuthorDbContext
-
-update-database InitialMigration -p Api.autor.Persintence -s Api.autor.Persintence -context AuthorDbContext
+git clone https://github.com/Ivanproyectos/template-onion-architecture.git
+cd cd v2/LibraryManagement
+code . 
+dotnet restore
+dotnet build
+dotnet run --project src/API
 ```
-- `p Api.autor.Persistence`: El proyecto donde se encuentran las migraciones.
-- `s Api.autor.Persistence`: El proyecto de inicio (donde se ejecuta la aplicación).
-- `c AuthorDbContext`: Especifica que debe utilizar el contexto `AuthorDbContext` para generar la migración
+# Iniciar proyecto en visual code 
+iniciar migracion de base de datos y proyecto
+```bash
+cd cd v2/LibraryManagement
+code . 
+dotnet restore
+dotnet build
+dotnet ef migrations add InitialCreate
+dotnet ef database update
+dotnet run --project LibraryManagement.API/LibraryManagement.API.csproj
+```
+# Iniciar proyecto en visual studio
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.linkedin.com/in/ivan-perez-tintaya/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ivan-perez-tintaya/)
+iniciar migracion de la base de datos en consola de paquetes de nugget
+```bash
+add-migration InitialCreate
+update-database 
+```
+
+![Captura de pantalla 2025-05-26 152219](https://github.com/user-attachments/assets/9446550e-e724-45ce-b8fe-a9e129c25380)
+
+
